@@ -53,7 +53,7 @@
   <!-- ── HERO ── -->
   <section class="hero" id="hero">
     <canvas class="hero-canvas" id="heroCanvas"></canvas>
-    <div class="hero-content">
+    <div class="hero-content" style="display:grid;grid-template-columns:1fr auto;align-items:center;gap:60px;max-width:1200px;margin:0 auto;width:100%;padding:120px 32px 80px;position:relative;z-index:2;">
       <div class="hero-badge reveal-up" data-delay="0">
         <span class="badge-dot"></span>
         Available for new projects
@@ -87,6 +87,19 @@
         <div class="stat">
           <span class="stat-num" data-target="10">0</span><span class="stat-suffix">k+</span>
           <span class="stat-label">App Users</span>
+        </div>
+      </div>
+
+      <!-- Hero Photo -->
+      <div class="hero-photo-wrap reveal-right" data-delay="200" style="grid-column:2;grid-row:1/7;align-self:center;">
+        <div class="hero-photo-ring"></div>
+        <div class="hero-photo-inner">
+          <img src="salman.png" alt="Salman Butt" class="hero-photo" />
+        </div>
+        <div class="hero-photo-glow"></div>
+        <div class="hero-photo-badge">
+          <span class="badge-dot pulse"></span>
+          Available
         </div>
       </div>
     </div>
@@ -128,7 +141,9 @@
               <div class="card-inner">
                 <div class="card-avatar">
                   <div class="avatar-ring"></div>
-                  <div class="avatar-icon">SB</div>
+                  <div class="avatar-photo-wrap">
+                    <img src="salman.png" alt="Salman Butt" class="avatar-photo" />
+                  </div>
                 </div>
                 <div class="card-info">
                   <h3>Salman Butt</h3>
