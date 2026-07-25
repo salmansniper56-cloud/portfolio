@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salman Butt — AI Developer & Software Engineer</title>
+  <meta name="description" content="Salman Butt is an experienced AI developer and software engineer specializing in AI consulting, SaaS, and full-stack development. Creator of Pocket AI." />
+  <meta name="keywords" content="AI Developer, Software Engineer, Pocket AI, SaaS, Full Stack, AI Consulting, Salman Butt" />
+  <meta property="og:title" content="Salman Butt — AI Developer & Software Engineer" />
+  <meta property="og:description" content="Building intelligent products that scale. Creator of Pocket AI. Available for AI consulting & development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── CURSOR ── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ── NAV ── -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo">
+        <span class="logo-bracket">&lt;</span>SB<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#proposal" class="nav-link">Proposal</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta" id="nav-cta">Hire Me</a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── MOBILE MENU ── -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#proposal" class="mob-link">Proposal</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up" data-delay="0">
+        <span class="badge-dot"></span>
+        Available for new projects
+      </div>
+      <h1 class="hero-name reveal-up" data-delay="100">
+        <span class="name-line">Salman</span>
+        <span class="name-line gradient-text">Butt.</span>
+      </h1>
+      <p class="hero-title reveal-up" data-delay="200">
+        <span id="typed-text"></span><span class="cursor-blink">|</span>
+      </p>
+      <p class="hero-sub reveal-up" data-delay="300">
+        Building intelligent products that scale — from solo MVPs to enterprise AI systems.
+        Creator of <a href="https://beingsalmanbutt.app" target="_blank" class="hero-link">Pocket&nbsp;AI</a>.
+      </p>
+      <div class="hero-btns reveal-up" data-delay="400">
+        <a href="#projects" class="btn btn-primary" id="hero-projects-btn">View My Work</a>
+        <a href="#proposal" class="btn btn-ghost" id="hero-proposal-btn">See Proposal</a>
+      </div>
+      <div class="hero-stats reveal-up" data-delay="500">
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Building AI</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="15">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Products Shipped</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="10">0</span><span class="stat-suffix">k+</span>
+          <span class="stat-label">App Users</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">Who I Am</div>
+      <div class="about-grid">
+        <div class="about-left reveal-left">
+          <h2 class="section-title">Crafting the Future,<br/><span class="gradient-text">One Line at a Time.</span></h2>
+          <p class="about-text">
+            I'm Salman Butt — a full-stack AI developer and entrepreneur based in Pakistan. I specialise in building AI-powered applications, SaaS platforms, and intelligent automation systems that solve real-world problems.
+          </p>
+          <p class="about-text">
+            My flagship product, <strong>Pocket AI</strong>, is a live AI assistant app available at <a href="https://beingsalmanbutt.app" target="_blank" class="inline-link">beingsalmanbutt.app</a> — inspired by Pocket Pal AI, it runs large language models locally on-device, giving users full privacy with zero cloud dependency.
+          </p>
+          <p class="about-text">
+            I bring both technical depth and strategic thinking to every engagement. I don't just write code — I help companies build brands, products, and experiences that stand the test of time.
+          </p>
+          <div class="about-tags">
+            <span class="tag">AI/ML Integration</span>
+            <span class="tag">Brand Strategy</span>
+            <span class="tag">Full-Stack Dev</span>
+            <span class="tag">SaaS Architecture</span>
+            <span class="tag">UX Design</span>
+            <span class="tag">Technical Consulting</span>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="about-card-wrap">
+            <div class="about-card" id="about-card">
+              <div class="card-glow"></div>
+              <div class="card-inner">
+                <div class="card-avatar">
+                  <div class="avatar-ring"></div>
+                  <div class="avatar-icon">SB</div>
+                </div>
+                <div class="card-info">
+                  <h3>Salman Butt</h3>
+                  <p>AI Engineer & Founder</p>
+                </div>
+                <div class="card-items">
+                  <div class="card-item">
+                    <div class="ci-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <div class="ci-text">
+                      <span>Pocket AI</span>
+                      <small>Live · beingsalmanbutt.app</small>
+                    </div>
+                    <div class="ci-badge live">LIVE</div>
+                  </div>
+                  <div class="card-item">
+                    <div class="ci-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+                    </div>
+                    <div class="ci-text">
+                      <span>Open to Consulting</span>
+                      <small>AI &amp; Brand Projects</small>
+                    </div>
+                    <div class="ci-badge open">OPEN</div>
+                  </div>
+                  <div class="card-item">
+                    <div class="ci-icon">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div class="ci-text">
+                      <span>Pakistan</span>
+                      <small>Remote-Friendly</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal-up">Portfolio</div>
+      <h2 class="section-title centered reveal-up">Selected <span class="gradient-text">Projects</span></h2>
+      <p class="section-sub centered reveal-up">A curated selection of products I've built — from AI assistants to enterprise SaaS platforms.</p>
+
+      <!-- FEATURED: Pocket AI -->
+      <div class="project-featured reveal-up" id="pocket-ai-project">
+        <div class="pf-content">
+          <div class="pf-badge">
+            <span class="badge-dot pulse"></span>
+            Featured · Live Product
+          </div>
+          <h3 class="pf-title">Pocket AI</h3>
+          <p class="pf-desc">
+            Inspired by Pocket Pal AI, Pocket AI is a privacy-first AI assistant that runs large language models entirely on-device — no cloud, no data leaks. Users get the full power of modern LLMs locally, with a polished interface built for everyday use.
+          </p>
+          <ul class="pf-highlights">
+            <li>— On-device LLM inference, fully offline-capable</li>
+            <li>— Supports Llama, Mistral, Gemma and other open-weight models</li>
+            <li>— Zero data sent to external servers — complete privacy</li>
+            <li>— Progressive Web App, installable on any device</li>
+            <li>— 10,000+ active users</li>
+          </ul>
+          <div class="pf-tech">
+            <span>React</span><span>Node.js</span><span>llama.cpp</span><span>WebGPU</span><span>GGUF</span><span>PWA</span>
+          </div>
+          <div class="pf-actions">
+            <a href="https://beingsalmanbutt.app" target="_blank" class="btn btn-primary" id="pocket-ai-live-btn">
+              <span>Visit Live App</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+            <span class="pf-domain">beingsalmanbutt.app</span>
+          </div>
+        </div>
+        <div class="pf-visual">
+          <div class="pf-img-wrap">
+            <img src="pocket_ai_mockup.jpg" alt="Pocket AI App Mockup" class="pf-img" />
+            <div class="pf-img-glow"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT GRID -->
+      <div class="project-grid">
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-up" data-delay="0" id="project-neuroflow">
+          <div class="pc-img-wrap">
+            <img src="dashboard_mockup.jpg" alt="NeuroFlow Dashboard" class="pc-img" />
+            <div class="pc-overlay">
+              <span class="pc-tag">SaaS</span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <h3 class="pc-title">NeuroFlow Analytics</h3>
+            <p class="pc-desc">An AI-powered business intelligence platform for SMEs. Real-time analytics, predictive forecasting, and automated reporting — no data science degree required.</p>
+            <div class="pc-tech">
+              <span>Python</span><span>FastAPI</span><span>React</span><span>PostgreSQL</span><span>TensorFlow</span>
+            </div>
+            <div class="pc-footer">
+              <span class="pc-status">2024 · SaaS</span>
+              <a href="#" class="pc-link" id="neuroflow-link">Case Study →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal-up" data-delay="100" id="project-brandforge">
+          <div class="pc-img-wrap">
+            <img src="branding_mockup.jpg" alt="BrandForge AI" class="pc-img" />
+            <div class="pc-overlay">
+              <span class="pc-tag">AI Tool</span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <h3 class="pc-title">BrandForge AI</h3>
+            <p class="pc-desc">An AI-driven brand identity generator. Input your company vision, and the system outputs a complete brand kit — logo concepts, colour palette, typography, and guidelines.</p>
+            <div class="pc-tech">
+              <span>Next.js</span><span>Stable Diffusion</span><span>GPT-4</span><span>Figma API</span>
+            </div>
+            <div class="pc-footer">
+              <span class="pc-status">2024 · AI Tool</span>
+              <a href="#" class="pc-link" id="brandforge-link">Case Study →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal-up" data-delay="200" id="project-lexis">
+          <div class="pc-img-wrap">
+            <div class="pc-img-placeholder p4-bg">
+              <div class="placeholder-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="rgba(79,142,247,0.7)" stroke-width="1.5"><path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><path d="M8 5.4A7 7 0 0 1 12 4a7 7 0 0 1 4 1.4"/><line x1="2" y1="8" x2="12" y2="8"/><line x1="12" y1="8" x2="22" y2="8"/></svg>
+              </div>
+            </div>
+            <div class="pc-overlay">
+              <span class="pc-tag">LegalTech</span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <h3 class="pc-title">Lexis AI</h3>
+            <p class="pc-desc">AI legal document analyser for law firms. Automatically reviews contracts, highlights risk clauses, and provides plain-English summaries — cutting review time by 70%.</p>
+            <div class="pc-tech">
+              <span>Python</span><span>LangChain</span><span>GPT-4</span><span>Vector DB</span>
+            </div>
+            <div class="pc-footer">
+              <span class="pc-status">2023 · LegalTech</span>
+              <a href="#" class="pc-link" id="lexis-link">Case Study →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card reveal-up" data-delay="0" id="project-codemate">
+          <div class="pc-img-wrap">
+            <div class="pc-img-placeholder p5-bg">
+              <div class="placeholder-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="rgba(79,142,247,0.7)" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+            </div>
+            <div class="pc-overlay">
+              <span class="pc-tag">Dev Tool</span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <h3 class="pc-title">CodeMate</h3>
+            <p class="pc-desc">VS Code extension powered by local LLMs. Privacy-first AI coding assistant with zero cloud dependency — ideal for enterprise teams with strict data policies.</p>
+            <div class="pc-tech">
+              <span>TypeScript</span><span>Ollama</span><span>VS Code API</span><span>Rust</span>
+            </div>
+            <div class="pc-footer">
+              <span class="pc-status">2023 · Dev Tool</span>
+              <a href="#" class="pc-link" id="codemate-link">Case Study →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card reveal-up" data-delay="100" id="project-synapse">
+          <div class="pc-img-wrap">
+            <div class="pc-img-placeholder p6-bg">
+              <div class="placeholder-icon">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="rgba(139,92,246,0.7)" stroke-width="1.5"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-1.14"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96-.46 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-1.14"/></svg>
+              </div>
+            </div>
+            <div class="pc-overlay">
+              <span class="pc-tag">B2B SaaS</span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <h3 class="pc-title">Synapse CRM</h3>
+            <p class="pc-desc">AI-enhanced CRM for digital agencies. Predictive lead scoring, automated follow-ups, and sentiment analysis on client communications — built for teams that move fast.</p>
+            <div class="pc-tech">
+              <span>React</span><span>Django</span><span>Redis</span><span>ML Pipeline</span>
+            </div>
+            <div class="pc-footer">
+              <span class="pc-status">2023 · B2B SaaS</span>
+              <a href="#" class="pc-link" id="synapse-link">Case Study →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">Expertise</div>
+      <h2 class="section-title centered reveal-up">What I Bring to <span class="gradient-text">the Table</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal-up" data-delay="0" id="skill-ai">
+          <div class="sc-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/><circle cx="7.5" cy="14.5" r="1.5"/><circle cx="16.5" cy="14.5" r="1.5"/></svg>
+          </div>
+          <h3>AI &amp; Machine Learning</h3>
+          <p>LLM integration, fine-tuning, RAG pipelines, vector databases, prompt engineering, and AI product strategy.</p>
+          <div class="sc-bars">
+            <div class="sc-bar-item">
+              <span>LLM Integration</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:95%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>RAG / Vector DB</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:88%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>AI Product Strategy</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:90%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="100" id="skill-fullstack">
+          <div class="sc-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Full-Stack Development</h3>
+          <p>React, Next.js, Node.js, Python, FastAPI, PostgreSQL, MongoDB — from pixel-perfect UIs to robust backend systems.</p>
+          <div class="sc-bars">
+            <div class="sc-bar-item">
+              <span>React / Next.js</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:92%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>Node / Python Backend</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:89%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>Database Design</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="200" id="skill-brand">
+          <div class="sc-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>
+          </div>
+          <h3>Brand &amp; Product Design</h3>
+          <p>Creating cohesive digital identities — from naming and logo concepts to design systems and full brand guidelines for tech companies.</p>
+          <div class="sc-bars">
+            <div class="sc-bar-item">
+              <span>Brand Identity</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:82%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>UI/UX Design</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:88%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>Design Systems</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:85%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal-up" data-delay="300" id="skill-consulting">
+          <div class="sc-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><line x1="2" y1="20" x2="22" y2="20"/></svg>
+          </div>
+          <h3>AI Consulting</h3>
+          <p>Helping businesses identify where AI delivers real ROI — from process automation to intelligent products and market positioning.</p>
+          <div class="sc-bars">
+            <div class="sc-bar-item">
+              <span>Strategy & Roadmapping</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:87%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>Technical Architecture</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:90%"></div></div>
+            </div>
+            <div class="sc-bar-item">
+              <span>Market Analysis</span>
+              <div class="sc-bar"><div class="sc-fill" style="--w:80%"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROPOSAL ── -->
+  <section class="proposal section" id="proposal">
+    <div class="container">
+      <div class="section-label reveal-up">Application</div>
+      <h2 class="section-title centered reveal-up">My Proposal for Your <span class="gradient-text">AI Brand</span></h2>
+      <p class="section-sub centered reveal-up">Here's exactly how I'd approach building a world-class brand identity for your AI Consulting & Software Development company.</p>
+
+      <div class="proposal-grid">
+
+        <!-- Overview -->
+        <div class="proposal-card full-width reveal-up" id="proposal-overview">
+          <div class="prop-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3>Why I'm the Right Partner</h3>
+          <p>You're not just looking for a designer — you want a <strong>creative and technical partner</strong> who deeply understands the AI and tech landscape. That's precisely who I am. I've built AI products from zero to thousands of users, which means I understand both the <em>technical credibility</em> your brand needs to communicate and the <em>human-centred storytelling</em> that makes AI companies trustworthy.</p>
+          <p>My experience spans product development, UI/UX design, and go-to-market strategy — giving me a unique 360° view that a traditional design agency simply cannot offer.</p>
+        </div>
+
+        <!-- Process steps -->
+        <div class="process-steps reveal-up" id="proposal-process">
+          <h3 class="process-title">My Branding Process</h3>
+          <div class="steps">
+            <div class="step" id="step-1">
+              <div class="step-num">01</div>
+              <div class="step-content">
+                <h4>Discovery & Strategy</h4>
+                <p>Deep-dive into your vision, target market, competitors, and positioning. I'll lead collaborative workshops to define your company's personality, values, and differentiators.</p>
+                <span class="step-duration">Week 1 · 5–7 days</span>
+              </div>
+            </div>
+            <div class="step" id="step-2">
+              <div class="step-num">02</div>
+              <div class="step-content">
+                <h4>Name & Identity Concepts</h4>
+                <p>3–5 premium name concepts with rationale, followed by logo explorations across multiple directions — wordmarks, symbols, and combination marks.</p>
+                <span class="step-duration">Week 2 · 7–10 days</span>
+              </div>
+            </div>
+            <div class="step" id="step-3">
+              <div class="step-num">03</div>
+              <div class="step-content">
+                <h4>Full Brand Identity System</h4>
+                <p>Colour palette, typography system, iconography, brand voice guidelines, and a complete 30+ page brand guidelines document.</p>
+                <span class="step-duration">Week 3–4 · 10–14 days</span>
+              </div>
+            </div>
+            <div class="step" id="step-4">
+              <div class="step-num">04</div>
+              <div class="step-content">
+                <h4>Brand Assets & Collateral</h4>
+                <p>Business cards, email signatures, social media templates, letterheads, presentation decks, and any marketing materials required.</p>
+                <span class="step-duration">Week 5 · 5–7 days</span>
+              </div>
+            </div>
+            <div class="step" id="step-5">
+              <div class="step-num">05</div>
+              <div class="step-content">
+                <h4>Website Design (+ Dev Option)</h4>
+                <p>A high-fidelity website design aligned with the brand. I can also develop the full site — a unique advantage most designers cannot offer.</p>
+                <span class="step-duration">Week 6–8 · 14–21 days</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deliverables -->
+        <div class="proposal-card reveal-up" data-delay="100" id="proposal-deliverables">
+          <div class="prop-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3>What You'll Receive</h3>
+          <ul class="prop-list">
+            <li><span class="check">✓</span> Company name brainstorming & finalisation</li>
+            <li><span class="check">✓</span> Full logo suite (SVG, PNG, dark/light variants)</li>
+            <li><span class="check">✓</span> Colour palette with accessibility checks</li>
+            <li><span class="check">✓</span> Typography system & font licences guidance</li>
+            <li><span class="check">✓</span> 30+ page brand guidelines PDF</li>
+            <li><span class="check">✓</span> Business cards (print-ready)</li>
+            <li><span class="check">✓</span> Email signature (HTML)</li>
+            <li><span class="check">✓</span> Social media kit (10+ templates)</li>
+            <li><span class="check">✓</span> Website design (Figma)</li>
+            <li><span class="check">✓</span> Website development (optional)</li>
+            <li><span class="check">✓</span> 2 rounds of revisions on all deliverables</li>
+            <li><span class="check">✓</span> Full source files handed over</li>
+          </ul>
+        </div>
+
+        <!-- Timeline & Pricing -->
+        <div class="proposal-card reveal-up" data-delay="200" id="proposal-pricing">
+          <div class="prop-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Timeline & Investment</h3>
+          <div class="pricing-tiers">
+            <div class="tier" id="tier-brand">
+              <div class="tier-name">Brand Identity</div>
+              <div class="tier-price">From $1,200</div>
+              <div class="tier-time">4–5 Weeks</div>
+              <p>Name, logo, full brand guidelines, colour & typography system, business cards, email sig.</p>
+            </div>
+            <div class="tier featured-tier" id="tier-full">
+              <div class="tier-badge">Recommended</div>
+              <div class="tier-name">Brand + Website</div>
+              <div class="tier-price">From $2,500</div>
+              <div class="tier-time">7–8 Weeks</div>
+              <p>Everything in Brand Identity, plus a fully designed & developed website with CMS integration.</p>
+            </div>
+          </div>
+          <p class="pricing-note">* Exact pricing depends on scope. Happy to discuss a custom package during our discovery call.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-label reveal-up">Social Proof</div>
+      <h2 class="section-title centered reveal-up">What Clients <span class="gradient-text">Say</span></h2>
+      <div class="testi-grid">
+        <div class="testi-card reveal-up" data-delay="0" id="testi-1">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Salman delivered our SaaS dashboard ahead of schedule. The AI features he recommended weren't even in the original brief — but they became our biggest selling point."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">AK</div>
+            <div>
+              <strong>Ahmed Khan</strong>
+              <span>CTO, TechFlow Ltd.</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal-up" data-delay="100" id="testi-2">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Working with Salman felt like having a co-founder. He understood our brand vision instantly and translated it into a digital experience that actually converts."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">SR</div>
+            <div>
+              <strong>Sara Rahman</strong>
+              <span>Founder, GrowthStack</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal-up" data-delay="200" id="testi-3">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Pocket AI is the most intuitive AI tool I've used. The fact that one person built this from scratch speaks volumes about Salman's capabilities."</p>
+          <div class="testi-author">
+            <div class="ta-avatar">MJ</div>
+            <div>
+              <strong>Marcus J.</strong>
+              <span>Product Lead, Innovate SaaS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">Get In Touch</div>
+      <h2 class="section-title centered reveal-up">Let's Build Something<br/><span class="gradient-text">Extraordinary.</span></h2>
+      <p class="section-sub centered reveal-up">Ready to discuss your AI consulting company brand? I'd love to be your creative and technical partner.</p>
+      <div class="contact-grid">
+        <div class="contact-left reveal-left">
+          <div class="contact-info-item" id="contact-email">
+            <div class="cii-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hello@beingsalmanbutt.app">hello@beingsalmanbutt.app</a>
+            </div>
+          </div>
+          <div class="contact-info-item" id="contact-website">
+            <div class="cii-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div>
+              <strong>Live App</strong>
+              <a href="https://beingsalmanbutt.app" target="_blank">beingsalmanbutt.app</a>
+            </div>
+          </div>
+          <div class="contact-info-item" id="contact-availability">
+            <div class="cii-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div>
+              <strong>Availability</strong>
+              <span>Open to new projects · Quick turnaround</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right reveal-right">
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cf-name">Your Name</label>
+                <input type="text" id="cf-name" name="name" placeholder="John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="cf-email">Email Address</label>
+                <input type="email" id="cf-email" name="email" placeholder="john@company.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cf-subject">Project Type</label>
+              <select id="cf-subject" name="subject">
+                <option value="">Select a project type...</option>
+                <option value="branding">AI Company Branding</option>
+                <option value="development">Software Development</option>
+                <option value="consulting">AI Consulting</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Tell Me About Your Project</label>
+              <textarea id="cf-message" name="message" rows="5" placeholder="Describe your vision, goals, and any specifics about the project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width" id="contact-submit-btn">
+              Send Message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span>SB<span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-copy">© 2025 Salman Butt. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://beingsalmanbutt.app" target="_blank" id="footer-app-link">Pocket AI</a>
+          <a href="mailto:hello@beingsalmanbutt.app" id="footer-email-link">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
